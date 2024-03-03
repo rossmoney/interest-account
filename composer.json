@@ -1,0 +1,32 @@
+{
+  "name": "rossmoney/interest-account",
+  "description": "Interest Account Library OOP Demo",
+  "type": "project",
+  "minimum-stability": "dev",
+  "require-dev": {
+    "php": ">8.3",
+    "pestphp/pest": "3.x-dev"
+  },
+  "authors": [
+    {
+      "name": "ross.money",
+      "email": "ross.money@gmx.com"
+    }
+  ],
+  "autoload": {
+    "psr-4": {
+      "": [
+        "./src",
+        "./tests"
+      ]
+    }
+  },
+  "config": {
+    "allow-plugins": {
+      "pestphp/pest-plugin": true
+    }
+  },
+  "require": {
+    "guzzlehttp/guzzle": "7.9.x-dev"
+  }
+}
